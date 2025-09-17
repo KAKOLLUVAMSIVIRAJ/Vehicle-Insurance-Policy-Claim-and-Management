@@ -1,0 +1,64 @@
+
+body {
+    background-color: #f8f9fa; /* Light grey background */
+}
+
+/* --- Login Page Styles --- */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-box {
+    border: 1px solid #dee2e6;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 1rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.main-title {
+    margin-bottom: 3rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: #495057;
+}
+
+/* --- Dashboard Styles --- */
+.dashboard-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 280px;
+    background: #343a40;
+    color: white;
+}
+
+.sidebar .nav-link {
+    color: #adb5bd;
+    padding: 1rem;
+    font-size: 1.1rem;
+}
+
+.sidebar .nav-link.active,
+.sidebar .nav-link:hover {
+    color: #ffffff;
+    background-color: #495057;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 2rem;
+}
+
+.card-header h5 {
+    margin: 0;
+}
