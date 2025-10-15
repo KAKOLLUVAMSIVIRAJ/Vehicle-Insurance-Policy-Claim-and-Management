@@ -1,0 +1,59 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+
+
+.mission-card-1 {
+  border: 0;
+  border-left: 6px solid #FF8801;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+.mission-card-2 {
+  border: 0;
+  border-left: 6px solid #5BDC58;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+.mission-card-3 {
+  border: 0;
+  border-left: 6px solid #5B9FFF;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+.mission-card-4 {
+  border: 0;
+  border-left: 6px solid #027368;
+  background-color: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* subtle shadow */
+}
+
+
+
+
+.card-title {
+  color: #060270;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  
+}
+
+.card-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  width:100%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 0.9rem;
+}
